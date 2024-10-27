@@ -54,6 +54,7 @@ std::chrono::system_clock::time_point toTimePoint(const Date& date) {
 void cout_function() {
     int dates_count[maxLines] = {0};
     int prev_dates_count[maxLines] = {0};
+    clearScreen();
     std::cout << "****************************************************************************************************************" << std::endl;
     std::cout << "*                                  |*|                                   |*|                                   *" << std::endl;
     std::cout << "*" 
