@@ -18,4 +18,5 @@ g++ day_count.cpp -o day_count -lpthread
 
 # 실행방법
 
-./Day_count/day_count
+cd ~/Day_count
+./day_count
