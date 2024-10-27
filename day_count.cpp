@@ -54,6 +54,46 @@ std::chrono::system_clock::time_point toTimePoint(const Date& date) {
 void cout_function() {
     int dates_count[maxLines] = {0};
     int prev_dates_count[maxLines] = {0};
+    std::cout << "****************************************************************************************************************" << std::endl;
+    std::cout << "*                                  |*|                                   |*|                                   *" << std::endl;
+    std::cout << "*" 
+                << " 3a : " << std::setw(3) << dates_count[6] << " | "
+                << " 3b : " << std::setw(3) << dates_count[7] << " | "
+                << " 3c : " << std::setw(3) << dates_count[8] << " |*| "
+                << " 6a : " << std::setw(3) << dates_count[15] << " | "
+                << " 6b : " << std::setw(3) << dates_count[16] << " | "
+                << " 6c : " << std::setw(3) << dates_count[17] << " |*| "
+                << " 9a : " << std::setw(3) << dates_count[24] << " | "
+                << " 9b : " << std::setw(3) << dates_count[25] << " | "
+                << " 9c : " << std::setw(3) << dates_count[26] << " *"
+                << std::endl
+                << "*                                  |*|                                   |*|                                   *" << std::endl
+                << "*" 
+                << " 2a : " << std::setw(3) << dates_count[3] << " | "
+                << " 2b : " << std::setw(3) << dates_count[4] << " | "
+                << " 2c : " << std::setw(3) << dates_count[5] << " |*| "
+                << " 5a : " << std::setw(3) << dates_count[12] << " | "
+                << " 5b : " << std::setw(3) << dates_count[13] << " | "
+                << " 5c : " << std::setw(3) << dates_count[14] << " |*| "
+                << " 8a : " << std::setw(3) << dates_count[21] << " | "
+                << " 8b : " << std::setw(3) << dates_count[22] << " | "
+                << " 8c : " << std::setw(3) << dates_count[23] << " *"
+                << std::endl
+                << "*                                  |*|                                   |*|                                   *" << std::endl
+                << "*" 
+                << " 1a : " << std::setw(3) << dates_count[0] << " | "
+                << " 1b : " << std::setw(3) << dates_count[1] << " | "
+                << " 1c : " << std::setw(3) << dates_count[2] << " |*| "
+                << " 4a : " << std::setw(3) << dates_count[9] << " | "
+                << " 4b : " << std::setw(3) << dates_count[10] << " | "
+                << " 4c : " << std::setw(3) << dates_count[11] << " |*| "
+                << " 7a : " << std::setw(3) << dates_count[18] << " | "
+                << " 7b : " << std::setw(3) << dates_count[19] << " | "
+                << " 7c : " << std::setw(3) << dates_count[20] << " *"
+                << std::endl;
+    std::cout << "*                                  |*|                                   |*|                                   *" << std::endl;
+    std::cout << "****************************************************************************************************************" << std::endl;
+    std::cout << "Enter a section number (1a - 9c) to store or reset the date (0 to quit): "<<std::endl;
 
     while (keepRunning) {
         std::string currentDate = getCurrentDate();
